@@ -18,8 +18,7 @@
   letter-spacing: 0.01em;
   list-style-type: circle;
 }
-.header__links-list-item {
-}
+
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
@@ -197,8 +196,7 @@
   grid-template-columns: 334px auto;
   column-gap: 25px;
 }
-.about__column {
-}
+
 .about__column-image {
   justify-self: center;
 }
@@ -216,8 +214,7 @@
   width: 148px;
   height: 114px;
 }
-.about__column-text {
-}
+
 .about__title {
   font-size: 40px;
   font-weight: 700;
@@ -253,8 +250,7 @@
   list-style-type: none;
   text-align: center;
 }
-.footer__menu-list-item {
-}
+
 .footer__menu-link {
   font-size: 18px;
   font-weight: 400;
@@ -269,10 +265,7 @@
   gap: 48px;
   justify-self: end;
 }
-.footer__social-list-item {
-}
-.footer__social-link {
-}
+
 .footer__social-icon {
   width: 48px;
   height: 48px;
