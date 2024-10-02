@@ -22,7 +22,8 @@
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
-.header__link {
+.header__link,
+.footer__link {
   text-decoration-thickness: 1px;
   text-underline-offset: 6px;
 }
@@ -39,9 +40,10 @@
 .header__logo-image {
   object-fit: contain;
 }
-.header__address {
+.header__address,
+.footer__address {
   justify-self: end;
-  padding-right: 26px;
+  padding-right: 62px;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
@@ -142,6 +144,7 @@
 }
 .card-link {
   height: 100%;
+  text-decoration: none;
 }
 .card {
   position: relative;
@@ -239,7 +242,7 @@
   align-items: start;
   padding: 0 26px 88px 26px;
 }
-.footer .header__address {
+.footer .footer__address {
   justify-self: start;
 }
 
@@ -262,6 +265,7 @@
 .footer__social-list {
   list-style-type: none;
   display: flex;
+  padding-right: 24px;
   gap: 48px;
   justify-self: end;
 }
